@@ -1,0 +1,49 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+vendor/
+
+# Output files
+*.exe
+*.out
+
+# Ignore binary files
+*.bin
+*.dat
+*.db
+*.sqlite
+*.gz
+
+# Ignore system and text editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore configuration files
+*.json
+*.yaml
+*.yml
+*.xml
+
+# Ignore coverage files
+*.cover
+*.coverage
+.coverprofile
+
+# Ignore Go binary and other generated files
+/bin
+/pkg
+/obj
+
+# Dependency directories
+/vendor/
